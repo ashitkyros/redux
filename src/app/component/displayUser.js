@@ -1,7 +1,7 @@
 "use client"
 import { useSelector } from "react-redux";
 
-export default function displayUser() {
+export default function DisplayUser() {
     const Userlistdata = useSelector((data)=> data.users);
     console.log(Userlistdata);
     return (
